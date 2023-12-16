@@ -1,3 +1,7 @@
-﻿  Application.cpp
-C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\Sandbox\src\Application.cpp(8,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+﻿  SandboxApp.cpp
+C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\Hazel\src\Hazel\Application.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\Hazel\src\Hazel\Log.h(19,48): warning C4251: 'Hazel::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Hazel::Log'
+C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\Hazel\src\Hazel\Log.h(20,48): warning C4251: 'Hazel::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Hazel::Log'
+C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
   Sandbox.vcxproj -> C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\bin\Debug-x64\Sandbox\Sandbox.exe

@@ -1,3 +1,6 @@
-﻿  Test.cpp
-     Creating library C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\bin\Debug-x64\Hazel\Hazel.lib and object C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\bin\Debug-x64\Hazel\Hazel.exp
+﻿  Log.cpp
+C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\Hazel\src\Hazel\Log.h(19,48): warning C4251: 'Hazel::Log::s_CoreLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Hazel::Log'
+C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
+C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\Hazel\src\Hazel\Log.h(20,48): warning C4251: 'Hazel::Log::s_ClientLogger': class 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of class 'Hazel::Log'
+C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\Hazel\vendor\spdlog\include\spdlog\details\registry.h(33,31): message : see declaration of 'std::shared_ptr<spdlog::logger>'
   Hazel.vcxproj -> C:\Users\gavyb\OneDrive\Desktop\GameEngine\Hazel\bin\Debug-x64\Hazel\Hazel.dll
